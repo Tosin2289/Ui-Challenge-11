@@ -32,7 +32,8 @@ class Homepage extends StatelessWidget {
           decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: AssetImage('assets/thailand.jpg'),
+              image: NetworkImage(
+                  'https://images.unsplash.com/photo-1577702066866-6c8897d06443?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwag90BY1wYWdlfhx8fGVufDB8FHx8&auto=format&fit=crop&w=646&q=80'),
             ),
             borderRadius: BorderRadius.circular(20),
           ),
